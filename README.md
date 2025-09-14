@@ -30,10 +30,11 @@ Recursive prediction means:
 
 ## Output
 ![Recursive LSTM Prediction](Recursive_LSTM_Prediction.png)
+
 The plot shows:
-The noisy signal
-The true underlying sine wave
-The LSTM-predicted signal continuing the trend after training ends
+- The noisy signal
+- The true underlying sine wave
+- The LSTM-predicted signal continuing the trend after training ends
 
 ## LSTM Model Architecture
 
