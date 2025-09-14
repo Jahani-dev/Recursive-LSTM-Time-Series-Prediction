@@ -38,10 +38,10 @@ The plot shows:
 
 ## LSTM Model Architecture
 
-model = Sequential()
-model.add(LSTM(50, input_shape=(window_size, 1)))
-model.add(Dense(1))
-model.compile(optimizer='adam', loss='mse')
+- model = Sequential()
+- model.add(LSTM(50, input_shape=(window_size, 1)))
+- model.add(Dense(1))
+- model.compile(optimizer='adam', loss='mse')
 
 
 ## Example Use Cases
